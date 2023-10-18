@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>aty_pvphud</title>
+</head>
+<body>
+    
+    <main>
+        <div class="ammo">
+            <img src="assets/bullets.png">
+            <span>25</span>
+        </div>
+        <div class="bars">
+            <div class="health">
+                <svg width="182" height="32" viewBox="0 0 182 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="stroke">
+                    <path d="M134.194 1L3 1C1.89543 1 1 1.89543 1 3L1 17.5455C1 18.65 1.89543 19.5455 3 19.5455L128.276 19.5455C128.572 19.5455 128.865 19.6113 129.133 19.7382L152.484 30.8072C152.752 30.9342 153.044 31 153.34 31L179 31C180.105 31 181 30.1046 181 29V14.4545C181 13.35 180.105 12.4545 179 12.4545L159.258 12.4545C158.962 12.4545 158.669 12.3887 158.402 12.2618L135.05 1.19276C134.783 1.06584 134.49 1 134.194 1Z" stroke="#FF4343" stroke-width="2"/>
+                </svg>                    
+                <svg width="202" height="52" viewBox="0 0 202 52" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill">
+                    <g filter="url(#filter0_d_3_5)">
+                    <path d="M144.194 11L13 11C11.8954 11 11 11.8954 11 13L11 27.5455C11 28.65 11.8954 29.5455 13 29.5455L138.276 29.5455C138.572 29.5455 138.865 29.6113 139.133 29.7382L162.484 40.8072C162.752 40.9342 163.044 41 163.34 41L189 41C190.105 41 191 40.1046 191 39V24.4545C191 23.35 190.105 22.4545 189 22.4545L169.258 22.4545C168.962 22.4545 168.669 22.3887 168.402 22.2618L145.05 11.1928C144.783 11.0658 144.49 11 144.194 11Z" fill="#FF4343"/>
+                    <path d="M144.194 11L13 11C11.8954 11 11 11.8954 11 13L11 27.5455C11 28.65 11.8954 29.5455 13 29.5455L138.276 29.5455C138.572 29.5455 138.865 29.6113 139.133 29.7382L162.484 40.8072C162.752 40.9342 163.044 41 163.34 41L189 41C190.105 41 191 40.1046 191 39V24.4545C191 23.35 190.105 22.4545 189 22.4545L169.258 22.4545C168.962 22.4545 168.669 22.3887 168.402 22.2618L145.05 11.1928C144.783 11.0658 144.49 11 144.194 11Z" stroke="#FF4343"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_3_5" x="0.5" y="0.5" width="90%" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset/>
+                    <feGaussianBlur stdDeviation="5"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.262745 0 0 0 0 0.262745 0 0 0 0.8 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_5"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_5" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>                    
+                <div class="text">           
+                    <span>100</span>
+                    <img src="assets/hearth.png">
+                </div> 
+            </div>
+            <div class="armor">
+                <svg style="rotate: 180deg;" width="182" height="32" viewBox="0 0 182 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="stroke">
+                    <path d="M134.194 31H3C1.89543 31 1 30.1046 1 29V14.4545C1 13.35 1.89543 12.4545 3 12.4545H128.276C128.572 12.4545 128.865 12.3887 129.133 12.2618L152.484 1.19276C152.752 1.06584 153.044 1 153.34 1H179C180.105 1 181 1.89543 181 3V17.5455C181 18.65 180.105 19.5455 179 19.5455H159.258C158.962 19.5455 158.669 19.6113 158.402 19.7382L135.05 30.8072C134.783 30.9342 134.49 31 134.194 31Z" stroke="#4378FF" stroke-width="2"/>
+                </svg>           
+                <svg style="rotate: 180deg;" width="202" height="52" viewBox="0 0 202 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_3_6)">
+                    <path d="M144.194 41H13C11.8954 41 11 40.1046 11 39V24.4545C11 23.35 11.8954 22.4545 13 22.4545H138.276C138.572 22.4545 138.865 22.3887 139.133 22.2618L162.484 11.1928C162.752 11.0658 163.044 11 163.34 11H189C190.105 11 191 11.8954 191 13V27.5455C191 28.65 190.105 29.5455 189 29.5455H169.258C168.962 29.5455 168.669 29.6113 168.402 29.7382L145.05 40.8072C144.783 40.9342 144.49 41 144.194 41Z" fill="#4378FF"/>
+                    <path d="M144.194 41H13C11.8954 41 11 40.1046 11 39V24.4545C11 23.35 11.8954 22.4545 13 22.4545H138.276C138.572 22.4545 138.865 22.3887 139.133 22.2618L162.484 11.1928C162.752 11.0658 163.044 11 163.34 11H189C190.105 11 191 11.8954 191 13V27.5455C191 28.65 190.105 29.5455 189 29.5455H169.258C168.962 29.5455 168.669 29.6113 168.402 29.7382L145.05 40.8072C144.783 40.9342 144.49 41 144.194 41Z" stroke="#4378FF"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_3_6" x="0.5" y="0.5" width="50%" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset/>
+                    <feGaussianBlur stdDeviation="5"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.262745 0 0 0 0 0.470588 0 0 0 0 1 0 0 0 0.8 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_6"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_6" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>                     
+                <div class="text">           
+                    <span>100</span>
+                    <img src="assets/armor.png">
+                </div>    
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Raleway:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: none;
+    overflow: hidden;
+}
+
+main{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 385px;
+}
+
+main span{
+    color: #fff;
+}
+
+main .health span, main .armor span{
+    font-family: 'Inter';
+    font-size: 14px;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    width: 27px;
+}
+
+main .health svg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+main .armor svg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+main .armor svg.fill filter{
+    width: 50px;
+}
+
+main .health svg.stroke{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+main .armor svg.stroke{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+main .armor .text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+main .armor .text img{
+    position: absolute;
+    width: 22px;
+    right: 10px;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+main .armor .text span{
+    position: absolute;
+    right: 7px;
+    bottom: 2.5px;
+    text-align: center;
+}
+
+
+main .health .text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+main .health .text img{
+    position: absolute;
+    width: 22px;
+    left: 10px;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+main .health .text span{
+    position: absolute;
+    left: 7px;
+    bottom: 2.5px;
+    text-align: center;
+}
+
+main .ammo{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main .ammo span{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+main .ammo img{
+    width: 42px;
+    position: absolute;
+    opacity: 0.5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
